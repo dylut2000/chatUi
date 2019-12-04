@@ -6,12 +6,13 @@
     padding: 20px;
 }
 .chat {
-    height: calc(100vh - 180px);
+    height: calc(75vh - 180px);
     position: fixed;
-    bottom: 57px;
+    bottom: 150px;
     right: 7px;
-    width: 500px;
+    width: 450px;
 }
+
 .decor-default {
     background-color: #ffffff;
 }
@@ -200,15 +201,36 @@
     padding: 0;
     color: #0e0101;
 }
+
+
+.answer-add2 {
+    padding: 20px;
+    background: #ffffff;
+    position: fixed;
+    bottom: 40px;
+    right: 7px;
+    width: 450px;
+}
+
+.answer-add2 textarea {
+    width: 100%;
+    padding: 15px;
+    margin: -17px -50px 1px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 80px;
+  }
+
+
 .chat input {
-    outline: none;
     border-radius: 0;
 }
 
 
-/* textarea:focus, input:focus{
+textarea:focus, input:focus{
     outline: none;
-} */
+}
 
 .chat input::-webkit-input-placeholder {
    color: rgba(14, 13, 13, 0.603);
