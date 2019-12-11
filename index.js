@@ -4,7 +4,7 @@ $(function(){
     var chatmessages = [{
         username : 'bot',
         name: 'Speedy',
-        avatar: 'https://bootdey.com/img/Content/avatar/avatar2.png',
+        avatar: './img/chat1.png',
         text: 'Texto 1',
         ago: '5 min ago' 
         
@@ -12,7 +12,7 @@ $(function(){
     {
         username : 'Kushta',
         name: 'Lucky dube',
-        avatar: 'https://bootdey.com/img/Content/avatar/avatar1.png',
+        avatar: './img/chat2.png',
         text: 'Texto 2',
         ago: '2 min ago' 
         
