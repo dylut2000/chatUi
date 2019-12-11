@@ -7,4 +7,4 @@ simple user interface for a chatbot.
 
 *or*
 
-*you can aswell run it in the live-server*
+*you can aswell run it using the live-server*
